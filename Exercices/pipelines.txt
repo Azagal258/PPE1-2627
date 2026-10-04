@@ -1,0 +1,11 @@
+Ex 1.a)
+for year in {2016..2018};do echo -e "Lieux en $year :\n"$(wc -l archive/"$year"*.ann | tail -1 | awk '{print $1}');done > Exercices/comptes.txt
+
+Ex 1.b)
+for year in {2016..2018};do echo -e "Lieux en $year :\n"$(cat archive/"$year"*.ann | grep Location | wc -l | tail -1 | awk '{print $1}');done > Exercices/locations.txt
+
+Ex 2.a)
+for year in {2016..2018}; do cat archive/"$year"*.ann | grep Location | awk -F '\t' '{print $3}' | sort | uniq -c | sort -nr | head -15 > Exercices/classement_"$year".txt; done
+
+Ex 2.b)
+cat archive/*_05_*.ann | grep Location | awk -F '\t' '{print $3}' | sort | uniq -c | sort -nr | head -15 > Exercices/classement_mai.txt
