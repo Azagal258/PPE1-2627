@@ -18,3 +18,5 @@ sqdjkhflkqhlsdfksqdfkjsqjdkf
 
 ## TD 2 : Exercices Git
 random stuff
+
+# ce truc doit rester
