@@ -1,3 +1,6 @@
+sdfiomsdqfgbekgdfkljfsdejkqsioul
+sqdjkhflkqhlsdfksqdfkjsqjdkf
+
 # Journal de bord du projet encadré
 
 ## TD 0 : Introduction à Git (02/10)
