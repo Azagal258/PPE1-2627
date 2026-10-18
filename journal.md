@@ -12,3 +12,6 @@
 ### Remarques
 - RAS
 - Penser à `unzip <votre_archive> -d archive/` pour que les commandes fonctionnent
+
+## TD 2 : Exercices Git
+random stuff
